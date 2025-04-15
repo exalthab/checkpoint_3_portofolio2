@@ -1,0 +1,157 @@
+:root {
+    --primary-color: orangered;
+    --background-color: #f5f5f5;
+    --text-color: #333;
+  }
+
+  /* Apply Roboto to everything */
+* {
+    font-family: 'Roboto', sans-serif !important;
+    box-sizing: border-box;
+  }
+
+  .navbar {
+    background: var(--primary-color);
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* .navbar li */
+  .navbar ul {
+    display: flex;
+    /* display: inline; */
+    justify-content: right;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    /* font-family: 'Roboto', sans-serif; */
+    line-height: 1.6;
+    
+  }
+  
+  section {
+    padding: 3rem 2rem;
+  }
+  
+  section h2 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  section p {
+    font-size: 1.5rem;
+  }
+  
+  .highlight {
+    color: darkorange;
+    font-weight: bold;
+  }
+  
+  .video-container,
+  .image-container {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .video-container video,
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  dl dt {
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  dl dd {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  form {
+    font-size: 1.2rem;
+    padding: 2rem;
+  }
+  
+  fieldset {
+    border: 2px solid var(--primary-color);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  legend {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #cc3700;
+  }
+  
+  address {
+    margin-top: 2rem;
+    font-style: normal;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: underline;
+  }
+  
